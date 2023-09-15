@@ -5,8 +5,9 @@
     flex-flow: row;
     border: 2px solid black;
     height: 90vh;
-    width: 80vw;
-    margin-left: 150px;
+    width: 64vw;
+    /* margin-left: 150px; */
+    margin: 0 17vw;
     position: relative;
    
     
@@ -56,4 +57,10 @@
 }
 body{
     position: relative;
+}
+
+.chatbox {
+    position: absolute;
+    top: 92%;
+    left: 430px;
 }
