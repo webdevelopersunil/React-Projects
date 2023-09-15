@@ -1,0 +1,59 @@
+
+.Appflex{
+
+    display: flex;
+    flex-flow: row;
+    border: 2px solid black;
+    height: 90vh;
+    width: 80vw;
+    margin-left: 150px;
+    position: relative;
+   
+    
+}
+.Left{
+    border-right: 3px solid gray;
+    flex-grow: 1;
+    width: 420px;
+    height: 89vh;
+    position: absolute;
+    
+}
+.Right{
+    flex-grow: 2;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAIcASAMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAAAAQIDBwT/xAArEAACAgEEAgEDAwUBAAAAAAABAgARIQMSMUFRYSITMnGBkaEEQlKx0SP/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQP/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8A67ecxkZv+IoTJoljZ2m/RjVSPZMZFiFHrqELI5NxEHdYOOxKPyx4gYBfuOQEIYZjDWTCgg9HjqEhmO8KtD2Y4RZFg5r3Fp0f7ifzGFvUOTW3iUNPYdxs9Y6gHGI0FygVF5GJR2qKJAgQE5kVWPEvTbdatW4eO5e0XcDEglDkD3IakBC5IzH/AFAJYghitfELNEsaah8NVQMNM7x8l7hNXUqtqOISjUDJP6RizfAzIG5UIOa4N9SlcGpBno6H03vMWsjb9wBI9dTQ6dk27fgGVuGMwI0lZdMcBvfUf07O5mLH9hHqEgCjVyBqMtWbF1A1PGDMa+WZekoDOReW7gdVAa59iFM81UIMa5jhEqw1NwuiPuEESs9yqGcc8yKGm33sR/jzAb0UObqQALH5lqUZsc1kVUrAzX7QpOm6qNVJRG3hmqhx/wBgF3m2cn0MCGtqHSAIFwjSsGu5iDYrvxNNCmQECrzNAq3dwM1HwAPMJVZ8wgQH+VEc8RamG/MSqWYblxJGsfqgFbQmlPcCtPOqT4ErUu+6l4v3J3f+gXyIEKSSNs0ZVP3AG/Imes30tK15uZ6b6h1lUuGFXxA9FhBf8Six8zFg5N1j1L0xjqBLEkkcfiEAA53ciOFMMS5WsAXcnaiPu2iz3KWiXo3nPqZkEc9wiygZt6n5D3GBuIYghhEtBb8yxAVfI2LFSV0tNDaqAZA3XZJv8xuWbTBWxnNQBb0v6c2DagmZ6eq7aiLuUg80Jrobtnyv1cAyBi2wA+aqAxWmG3EUTcJOop1ApU1XmEBhRv3DF8+5diyByJg7ELjkQ0tRvpsxHy9DmBs5tCO5KWTV4/EnSdmYhqx3LDiwAP1hQdIZo88CV8dNcmh5Mz1tX6YBIJEabX07IJBzmEUpLfLo8CZ5zGzngcSiwhQthcioSC53EYqKVEBt325HmWOeMxA3xD4ihef9yBFtwKgUefzGGG0Hm/5ixyeoJRG4AC88Qq8MAHAJjBC4HHiSMyWGVrowLxJZgASeI4mz1cAHZHcUAKIrjxCVAq1KoxQiBLe3MaghQPUUIgefGJLEg0MRwiBrZWzCj1zCEQYhDvUbaI5N8whCB//Z");
+    /* background-color: red; */
+    position: absolute;
+    /* right: 140px; */
+   width: 800px;
+     height: 74vh;  
+     left: 420px;
+     margin-top: 60px;
+     overflow: scroll;
+}
+.heading{
+    position: absolute;
+    top:200px;
+    right:300px;
+    /* margin-top: 300px;
+    margin-left: 300px; */
+    color: blue;
+    font-size: 50px;
+
+}
+ .imagechat img{
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    top:3px;
+}
+.allcontact img{
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    left:300px;
+    top:4px;
+}
+body{
+    position: relative;
+}
