@@ -8,15 +8,11 @@ import { Provider } from 'react-redux';
 import store from './Redux/Store';
 
 function App() {
-  
-
-
 
   return (
-
-<Provider store={store}>
-<Messenger/>
-</Provider>
+    <Provider store={store}>
+      <Messenger />
+    </Provider>
   );
 }
 
